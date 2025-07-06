@@ -1,6 +1,6 @@
 # Analisis Sentimen pada Dataset IMDB: Perbandingan Model LSTM vs CNN
 
-## 📌 Ringkasan Proyek
+## Ringkasan Proyek
 
 Proyek ini bertujuan untuk melakukan **klasifikasi sentimen biner** (positif atau negatif) terhadap ulasan film dari dataset **IMDB** menggunakan dua pendekatan deep learning: **Long Short-Term Memory (LSTM)** dan **Convolutional Neural Network (CNN)**. Proyek ini juga membandingkan performa kedua arsitektur dalam hal akurasi dan loss.
 
@@ -12,7 +12,7 @@ Notebook ini dikembangkan sebagai bagian dari tes teknis dan menunjukkan kemampu
 
 ---
 
-## 🎯 Permasalahan
+##  Permasalahan
 
 Dataset IMDB terdiri dari 50.000 ulasan film yang telah diberi label sebagai **positif** atau **negatif**. Tugas utama dari proyek ini adalah:
 - Melakukan pra-pemrosesan data teks agar bisa digunakan oleh model deep learning
@@ -21,7 +21,7 @@ Dataset IMDB terdiri dari 50.000 ulasan film yang telah diberi label sebagai **p
 
 ---
 
-## 🧠 Arsitektur Model
+##  Arsitektur Model
 
 ### 1. LSTM (Long Short-Term Memory)
 - Merupakan jenis Recurrent Neural Network (RNN) yang mampu memahami konteks jangka panjang dalam data urutan (sequence).
@@ -41,7 +41,7 @@ Dataset IMDB terdiri dari 50.000 ulasan film yang telah diberi label sebagai **p
 
 ---
 
-## ⚙️ Tools & Library yang Digunakan
+##  Tools & Library yang Digunakan
 
 - Python
 - TensorFlow / Keras
@@ -51,7 +51,7 @@ Dataset IMDB terdiri dari 50.000 ulasan film yang telah diberi label sebagai **p
 
 ---
 
-## 📊 Metode Evaluasi
+##  Metode Evaluasi
 
 - **Akurasi**: Mengukur tingkat ketepatan model.
 - **Loss (Binary Crossentropy)**: Mengukur kesalahan prediksi.
@@ -59,7 +59,7 @@ Dataset IMDB terdiri dari 50.000 ulasan film yang telah diberi label sebagai **p
 
 ---
 
-## 📈 Hasil Singkat
+## Hasil Singkat
 
 | Model | Akurasi Pengujian | Catatan |
 |-------|-------------------|---------|
@@ -68,29 +68,10 @@ Dataset IMDB terdiri dari 50.000 ulasan film yang telah diberi label sebagai **p
 
 > Model LSTM menunjukkan performa sedikit lebih baik dibanding CNN, namun keduanya cukup andal untuk tugas klasifikasi sentimen.
 
----
-
-## ✅ Keterampilan yang Ditunjukkan
-
-- Pemrosesan Bahasa Alami (NLP)
-- Deep Learning dengan arsitektur LSTM dan CNN
-- Pra-pemrosesan dan tokenisasi teks
-- Evaluasi model dan visualisasi hasil
-- Penulisan kode yang jelas, rapi, dan dapat direproduksi
 
 ---
 
-## 📂 Cara Menjalankan
-
-Proyek ini dirancang menggunakan **Google Colab**. Untuk mencoba:
-
-1. Buka file notebook di [Google Colab](https://colab.research.google.com/).
-2. Pastikan TensorFlow telah terinstal.
-3. Jalankan semua sel secara berurutan untuk melihat hasil pelatihan dan evaluasi model.
-
----
-
-## 🎓 Kesimpulan
+##  Kesimpulan
 
 Proyek ini memperlihatkan bagaimana deep learning dapat digunakan untuk memahami sentimen dari data teks, serta pentingnya memilih arsitektur yang tepat untuk tugas tertentu. Harapannya, proyek ini bisa menjadi gambaran atas kemampuan teknis saya, kemampuan analisis, dan cara saya menyajikan data secara profesional.
 
